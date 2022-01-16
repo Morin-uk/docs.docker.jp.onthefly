@@ -68,13 +68,13 @@ Also see the [ECS integration architecture](ecs-architecture.md), [full list of 
 @x
 To deploy Docker containers on ECS, you must meet the following requirements:
 @y
-Docker コンテナーを ECS にデプロイするには、以下の条件を満たしていることが必要です。
+Docker コンテナーを ECS にデプロイするには、以下の条件を満たしている必要があります。
 @z
 
 @x
 1. Download and install the latest version of Docker Desktop.
 @y
-1. Docker Desktop 最新版をダウンロードしインストールしていることが必要です。
+1. Docker Desktop の最新版をダウンロードしインストールしている必要があります。
 @z
 
 @x
@@ -103,7 +103,7 @@ developers to seamlessly deploy Docker containers on Amazon ECS using a
 Compose file with the `docker compose up` command. The following sections
 contain instructions on how to deploy your Compose application on Amazon ECS.
 @y
-Docker は、単にローカルのマルチコンテナーを実行するだけのものではなくなります。
+Docker は、単にローカルのマルチコンテナーを実行するだけではありません。
 `docker compose up` により Compose ファイルを使って Amazon ECS 上の Docker コンテナーをシームレスにデプロイできます。
 以下の節では Amazon ECS 上において Docker コンテナーをデプロイする手順を説明します。
 @z
