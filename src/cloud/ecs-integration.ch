@@ -125,13 +125,13 @@ Docker は、単にローカルのマルチコンテナーを実行するだけ�
 @x
 AWS uses a fine-grained permission model, with specific role for each resource type and operation.
 @y
-AWS uses a fine-grained permission model, with specific role for each resource type and operation.
+AWSはリソースや操作ごとにロールを持たせる「 fine-grained permission model ( 細かい許可モデル ) 」を採用しており、それぞれのリソースや操作に対してアクセス許可が必要となります。
 @z
 
 @x
 To ensure that Docker ECS integration is allowed to manage resources for your Compose application, you have to ensure your AWS credentials [grant access to following AWS IAM permissions](https://aws.amazon.com/iam/features/manage-permissions/):
 @y
-To ensure that Docker ECS integration is allowed to manage resources for your Compose application, you have to ensure your AWS credentials [grant access to following AWS IAM permissions](https://aws.amazon.com/iam/features/manage-permissions/):
+構成したアプリケーションのリソースを管理するためにDocker と ECS の統合が許可されているか確かめるためには、AWSにおける認証情報の確認が必要です。 [grant access to following AWS IAM permissions](https://aws.amazon.com/iam/features/manage-permissions/):
 @z
 
 @x
